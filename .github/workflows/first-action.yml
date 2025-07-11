@@ -8,7 +8,7 @@ jobs:
   first_job: # job name
     # runner
     runs-on: ubuntu-latest
-    septs:
+    steps:
       - name: Print greeting
         run: echo "Hello, world"
       - name: Say goodbye
